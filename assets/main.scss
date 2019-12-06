@@ -2,4 +2,35 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+.header-contianer {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+li {
+  margin-top: 0.5em;
+}
+
+.screenshot {
+  padding: 0 0 2em 2em;
+  float: right;
+  width: 400px;
+}
+
+.screenshot_alt {
+  @extend .screenshot;
+  float: left;
+  padding: 0 2em 2em 0;
+}
+
 @import 'modern-resume-theme';
+
+p.quote {
+  text-align: left;
+  padding: 0.5em 1em 0.5em 1em;
+  font-size: 1.6em;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+  border-color: #7a7a7a;
+}
+

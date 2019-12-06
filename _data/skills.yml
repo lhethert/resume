@@ -1,0 +1,20 @@
+- layout: left
+  name: Languages & Tools
+  description: | # this will include new lines to allow paragraphs
+    -	Highly proficient with C++ (11/14), Qt5 and OpenGL with over 10 years of experience developing cross-platform 3D visualisation applications. Extensive experience developing multi-threaded applications with the Qt Toolkit and CMake. 
+    -	Proficient with Python, HTML5 (and CSS3), Javascript.
+    - Proficient with SQL databases including MySQL, SQLServer and PostgreSQL.
+    - Experience with MongoDB.
+    - Experience with ASP.NET, Java and C#.
+    -	Experience with web frameworks including OpenLayers, Angular.js, Node.js and JQuery with a demonstrated ability to adapt to new technologies and APIs quickly and adeptly.
+    -	Experience developing GUI and visualisation applications under Windows, Linux and Mac environments.
+    - Experience across the entire SDLC.
+
+- layout: left
+  name: Soft skills
+  description: |
+    -	Outstanding written and verbal communication skills, with experience presenting to large groups.
+    - Extensive experience running user and customer workshops.
+    - Experience leading small software development teams.
+
+

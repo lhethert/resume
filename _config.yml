@@ -22,7 +22,7 @@ linkedin_username: lachlan-hetherton-2521289
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile_2016.png
+about_profile_image: images/profile_2016.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Lachlan and I'm a senior software engineer based in Melbourne, Australia, with a passion for software design, programming and computer graphics. My core skills are modern <mark>C++</mark> and real-time visualisation with <mark>OpenGL</mark>, although I have solid skills with many other technologies including <mark>Javascript</mark> and <mark>Python</mark>. My software design skills are highly regarded and I have a track record of leading successful development teams.
 
@@ -38,7 +38,7 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  In my spare programming time, I like to read books about 3D programming, and work on small side-projects to help me learn technologies like WebGL and OpenGL 4 and like to tinker away on my RetroPie (built using a Raspberry Pi 3 B+). Separately from programming, I am known to rock climb, am learning to play the piano and create electronic music of questionable quality.
+  In my spare programming time, I read books about 3D programming, work on small side-projects to help me learn technologies like WebGL and OpenGL 4, and I like to tinker away on my RetroPie (built using a Raspberry Pi 3 B+). Outside of tech, I enjoy rock climbing, am learning to play the piano and compose electronic music of questionable quality.
 
 # Footer
 footer_show_references: true

@@ -1,8 +1,55 @@
-- layout: top-middle
+- layout: left
   name: Workspace
-  link: research.csiro.au
-  # github: sproogen/resume-theme
+  link: research.csiro.au/workspace
+  image: images/workspace.png
   quote: >
-    Workspace is a powerful, cross-platform scientific workflow framework that enables collaboration and software reuse. It streamlines the path from research to commercial product.
+    Workspace is a powerful, cross-platform scientific workflow framework that enables collaboration and software reuse. It streamlines the path from research to impact.
   description: | # this will include new lines to allow paragraphs
-    I've been a senior member of the Workspace development team since 2009, contributing not only to the codebase but to its design and strategic direction. I designed and developed the framework's 3D visualisation capabilities as well as many aspects of the UI.
+    I've been a senior member of the Workspace development team since 2009, contributing not only to the codebase but to its design and strategic direction.
+
+    I designed and developed the framework's 3D (and 2D) visualisation capabilities as well as many aspects of the core UI.
+
+- layout: right
+  name: Mixed Reality Lab
+  link: research.csiro.au/workspace/mixedrealitylab
+  image: images/mrl.jpg
+  quote: >
+    The Mixed Reality Lab at CSIRO’s Data61 will enable manufacturing and other industries to create ‘Digital Twins’, or virtual replicas of physical objects and systems.
+  description: |
+    Data61's Mixed Reality Lab is a unique combination of Data61’s research expertise across machine learning, computer vision, computational modelling, IoT, and CSIRO’s patented Stereo Depth Fusion technology for depth estimation.
+
+    As a senior engineer on the project, one of my responsibilities is creating solutions for visualising the huge datasets produced by the sensor suite.
+
+- layout: left
+  name: Fractura
+  link: research.csiro.au/fractura
+  image: images/fractura.png
+  quote: >
+    Fractura is a hydraulic fracture simulation toolkit taking 20 years of CSIRO hydraulic fracture expertise out of the lab and into user friendly software.
+  description: | # this will include new lines to allow paragraphs
+    My role in the development of Fractura has been to lead the team of software engineers to develop its UI and application layer alongside the expert research team that develop the sophisticated numerical fracture models.
+
+- layout: right
+  name: Spark
+  link: research.csiro.au/spark
+  image: images/spark.png
+  quote: >
+    A wildfire simulation toolkit for researchers and experts in the disaster resilience field.
+  description: | # this will include new lines to allow paragraphs
+    Spark is a toolkit for the end-to-end processing, simulation and analysis of wildfires. Users can design custom fire propagation models by building on Spark’s GPU-based computational fire propagation solver and incorporating various input, processing and visualisation components, each tailored for wildfire modelling.
+
+    As lead software engineer on the Spark development team up until until 2015, my primary role was to design and develop the application and UI layers alongside the amazing research team developing the highly-flexible bushfire solver and utility suite.
+
+- layout: left
+  name: Workspace Python Interface
+  github: github.com/csiro-workspace/workspace-python
+  description: |
+    A lightweight Python module that allows Workspace workflows to be executed from within Python code. Each Workspace workflow runs as an independent child process; an instance of the workspace-web executable. The python module binds to the Workspace C-API which it uses to interact with the running processes.
+
+- layout: left
+  name: QOpenGL Demonstrator
+  github: github.com/lhethert/qgldemo
+  description: |
+    A simple demonstrator of Qt's OpenGL capabilities with a few home-made math libraries to boot.
+
+

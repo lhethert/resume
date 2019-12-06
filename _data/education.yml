@@ -1,10 +1,12 @@
 - layout: left
-  name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+  name: RMIT University
+  dates: 2003 - 2007
+  qualification: BAppSc Software Engineering
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    RMIT is ranked as one of the world’s leading universities with a strong research record and state-of-the-art facilities and infrastructure.
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    While studying Software Engineering at RMIT, my studies included programming in various languages (<mark>C</mark>, <mark>C++</mark>, <mark>Java</mark>, <mark>.NET</mark>), Data Structures and Algorithms, Design Patterns, Operating Systems and Data Comms and Networks. My degree included a 1 year industry internship and a final-year software development project with an industry partner.
 
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    I was the 2006 recipient of the Infosys Industry Prize for outstanding results in the Bachelor of Applied Science (Software Engineering) program.
+
+
