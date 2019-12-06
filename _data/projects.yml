@@ -1,0 +1,8 @@
+- layout: top-middle
+  name: Workspace
+  link: research.csiro.au
+  # github: sproogen/resume-theme
+  quote: >
+    Workspace is a powerful, cross-platform scientific workflow framework that enables collaboration and software reuse. It streamlines the path from research to commercial product.
+  description: | # this will include new lines to allow paragraphs
+    I've been a senior member of the Workspace development team since 2009, contributing not only to the codebase but to its design and strategic direction. I designed and developed the framework's 3D visualisation capabilities as well as many aspects of the UI.

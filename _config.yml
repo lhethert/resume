@@ -1,0 +1,54 @@
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Lachlan Hetherton
+title: Senior Software Engineer
+email: lhethert@fastmail.fm
+website: lachlanhetherton.com
+
+# Social links
+twitter_username: lhethert
+github_username: lhethert
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+linkedin_username: lachlan-hetherton-2521289
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_2016.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Lachlan and I'm a senior software engineer based in Melbourne, Australia, with a passion for software design, programming and computer graphics. My core skills are modern <mark>C++</mark> and real-time visualisation with <mark>OpenGL</mark>, although I have solid skills with many other technologies including <mark>Javascript</mark> and <mark>Python</mark>. My software design skills are highly regarded and I have a track record of leading successful development teams.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  In my spare programming time, I like to read books about 3D programming, and work on small side-projects to help me learn technologies like WebGL and OpenGL 4 and like to tinker away on my RetroPie (built using a Raspberry Pi 3 B+). Separately from programming, I am known to rock climb, am learning to play the piano and create electronic music of questionable quality.
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
