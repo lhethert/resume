@@ -42,13 +42,13 @@
 
 - layout: left
   name: Workspace Python Interface
-  github: github.com/csiro-workspace/workspace-python
+  github: csiro-workspace/workspace-python
   description: |
     A lightweight Python module that allows Workspace workflows to be executed from within Python code. Each Workspace workflow runs as an independent child process; an instance of the workspace-web executable. The python module binds to the Workspace C-API which it uses to interact with the running processes.
 
 - layout: left
   name: QOpenGL Demonstrator
-  github: github.com/lhethert/qgldemo
+  github: lhethert/qgldemo
   description: |
     A simple demonstrator of Qt's OpenGL capabilities with a few home-made math libraries to boot.
 

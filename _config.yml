@@ -4,7 +4,7 @@ repository: sproogen/resume-theme
 
 # Personal info
 name: Lachlan Hetherton
-title: Senior Software Engineer
+title: Principal Software Engineer
 email: lhethert@fastmail.fm
 website: lachlanhetherton.com
 
@@ -24,7 +24,7 @@ linkedin_username: lachlan-hetherton-2521289
 # about_title: About Me
 about_profile_image: images/profile_2016.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Lachlan and I'm a senior software engineer based in Melbourne, Australia, with a passion for software design, programming and computer graphics. My core skills are modern <mark>C++</mark> and real-time visualisation with <mark>OpenGL</mark>, although I have solid skills with many other technologies including <mark>Javascript</mark> and <mark>Python</mark>. My software design skills are highly regarded and I have a track record of leading successful development teams.
+  Hi, my name's Lachlan and I'm a principal software engineer based in Melbourne, Australia, with a passion for software design, programming and computer graphics. My core skills are modern <mark>C++</mark> and real-time visualisation with <mark>OpenGL</mark>, although I have solid skills with many other technologies including <mark>Javascript</mark> and <mark>Python</mark>. My software design skills are highly regarded and I have a track record of leading successful development teams.
 
 # Projects Section
 # projects_title: Projects
