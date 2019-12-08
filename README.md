@@ -43,7 +43,7 @@ $ bundle exec jekyll serve
 To simply build and deploy, execute the following:
 ```
 $ jekyll build
-./deploy.sh
+$ ./deploy.sh
 ```
 Of course, the deploy script will have to point to the relevant site
 folder.
