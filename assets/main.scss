@@ -12,15 +12,8 @@ li {
 }
 
 .screenshot {
-  padding: 0 0 2em 2em;
-  float: right;
-  width: 400px;
-}
-
-.screenshot_alt {
-  @extend .screenshot;
-  float: left;
-  padding: 0 2em 2em 0;
+  padding: 1em 0 0 0;
+  display: block;
 }
 
 @import 'modern-resume-theme';

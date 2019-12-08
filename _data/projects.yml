@@ -9,7 +9,7 @@
 
     I designed and developed the framework's 3D (and 2D) visualisation capabilities as well as many aspects of the core UI.
 
-- layout: right
+- layout: left
   name: Mixed Reality Lab
   link: research.csiro.au/workspace/mixedrealitylab
   image: images/mrl.jpg
@@ -29,7 +29,7 @@
   description: | # this will include new lines to allow paragraphs
     My role in the development of Fractura has been to lead the team of software engineers to develop its UI and application layer alongside the expert research team that develop the sophisticated numerical fracture models.
 
-- layout: right
+- layout: left
   name: Spark
   link: research.csiro.au/spark
   image: images/spark.png
