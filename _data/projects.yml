@@ -11,7 +11,7 @@
 
 - layout: left
   name: Mixed Reality Lab
-  link: research.csiro.au/workspace/mixedrealitylab
+  link: research.csiro.au/workspace/mrl
   image: images/mrl.jpg
   quote: >
     The Mixed Reality Lab at CSIRO’s Data61 will enable manufacturing and other industries to create ‘Digital Twins’, or virtual replicas of physical objects and systems.
@@ -45,6 +45,12 @@
   github: csiro-workspace/workspace-python
   description: |
     A lightweight Python module that allows Workspace workflows to be executed from within Python code. Each Workspace workflow runs as an independent child process; an instance of the workspace-web executable. The python module binds to the Workspace C-API which it uses to interact with the running processes.
+
+- layout: left
+  name: This Website
+  github: lhethert/resume
+  description: |
+    This website that you're looking at right now, built using Jekyll.
 
 - layout: left
   name: QOpenGL Demonstrator
