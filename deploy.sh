@@ -1,2 +1,2 @@
 #!/bin/bash
-scp -r _site/* lhetherton@lachlanhetherton.com:~/lachlanhetherton.com/public/
+rsync -rzhv _site/* lhetherton@lachlanhetherton.com:~/lachlanhetherton.com/public/
