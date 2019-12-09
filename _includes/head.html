@@ -8,8 +8,9 @@
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}">
-  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
   <script src="{{ '/assets/charts.js' | relative_url }}" charseet="utf-8"></script>
+  <script src="{{ '/assets/graph-scroll.js' | relative_url }}" charseet="utf-8"></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

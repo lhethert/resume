@@ -16,37 +16,36 @@ charts = {};
       height = 300 - margin.top - margin.bottom;
 
   // function to create charts
-  charts.create = function(data, parentSelector, colorMin, colorMax) {
+  charts.create = function(id, data, parentSelector, colorMin, colorMax) {
       var svg = parentSelector.append("svg")
           .attr("width", width + margin.left + margin.right)
           .attr("height", height + margin.top + margin.bottom)
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      var x = d3.scale.linear()
+      var x = d3.scaleLinear()
           .range([0, width])
           .domain([0, d3.max(data, function (d) {
               return d.value;
           })]);
 
-      var y = d3.scale.ordinal()
-          .rangeRoundBands([height, 0], .1)
+      var y = d3.scaleBand()
+          .rangeRound([height, 0], .1)
           .domain(data.map(function (d) {
               return d.name;
           }));
 
       //make y axis to show bar names
-      var yAxis = d3.svg.axis()
+      var yAxis = d3.axisLeft()
           .scale(y)
           //no tick marks
           .tickSize(0)
-          .orient("left");
 
       var gy = svg.append("g")
           .attr("class", "y axis")
           .call(yAxis)
 
-      var colorScale = d3.scale.linear().domain([0, 5]).range([colorMin, colorMax]);
+      var colorScale = d3.scaleLinear().domain([0, 5]).range([colorMin, colorMax]);
       var bars = svg.selectAll(".bar")
           .data(data)
           .enter()
@@ -59,19 +58,11 @@ charts = {};
           .attr("y", function (d) {
               return y(d.name);
           })
-          .attr("height", y.rangeBand())
+          .attr("height", y.bandwidth() - 2)
           .attr("x", 0)
           .attr("width", function (d) {
-              //return x(d.value);
-            return 0; // initially zero
+              return 0; // initially zero - not visible
           });
-
-      bars.selectAll("rect")
-          .transition()
-          .duration(1000)
-          .ease('bounce')
-          .attr("width", function(d) { return x(d.value); })
-          .delay(function(d,i) { return(i*100); } );
 
       //retriev the proficiency string based on the stored value
       var getProficiencyStr = function(value) {
@@ -103,14 +94,44 @@ charts = {};
           .attr("class", "label")
           //y position of the label is halfway down the bar
           .attr("y", function (d) {
-              return y(d.name) + y.rangeBand() / 2 + 4;
+              return y(d.name) + y.bandwidth() / 2 + 4;
           })
           //x position is 3 pixels to the right of the bar
           .attr("x", function (d) {
               return x(d.value) + 3;
           })
+          .attr("fill-opacity", function(d) {
+            return 0; // initially invisible
+          })
           .text(function (d) {
               return getProficiencyStr( Number(d.value) );
+          });
+
+      // transitions set to trigger when the relevant section becomes active.
+      // each section will trigger an 'active' event when scrolled to, but
+      // only the ones containing rect and label types will actually have
+      // transitions triggered.
+      d3.graphScroll()
+          .container(d3.select('.page-content'))
+          .graph(d3.select('.page-content .container'))
+          .eventId(id)
+          .sections(d3.selectAll('.page-content .container'))
+          .on('active', function(i) {
+              // transition width to 100% of x value
+              d3.selectAll(".graph-scroll-active rect")
+                  .transition()
+                  .duration(500)
+                  .ease(d3.easeExp)
+                  .attr("width", function(d) { return x(d.value); })
+                  .delay(function(d,i) { return(i*100); } );
+
+              // transition opacity to 1.0
+              d3.selectAll(".graph-scroll-active .label")
+                  .transition()
+                  .duration(500)
+                  .ease(d3.easeExp)
+                  .attr("fill-opacity", function(d) { return 1.0; })
+                  .delay(function(d,i) { return(i*100); } );
           });
     }
 })();

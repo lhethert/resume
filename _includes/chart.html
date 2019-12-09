@@ -20,6 +20,6 @@
     });
 
     //create the chart SVG
-    charts.create(data, d3.select("#{{ include.item.name }}"), "{{ include.item.colorMin }}", "{{ include.item.colorMax }}");
+    charts.create("{{ include.item.name }}", data, d3.select("#{{ include.item.name }}"), "{{ include.item.colorMin }}", "{{ include.item.colorMax }}");
   </script>
 </div>
