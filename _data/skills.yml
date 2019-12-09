@@ -59,11 +59,11 @@
         - name: MongoDB
           value: 2
         - name: Travis
-          value: 2
+          value: 1
         - name: Grunt
-          value: 2
+          value: 1
         - name: Node.js
-          value: 2
+          value: 1
   description: | # this will include new lines to allow paragraphs
     I am highly proficient with C++ (11/14), Qt5 and OpenGL with over 10 years of experience developing cross-platform 3D visualisation applications. Extensive experience developing multi-threaded applications with the Qt Toolkit and CMake. 
     My proficiency with the various languages, frameworks and tools I have been exposed to are summarised below.
