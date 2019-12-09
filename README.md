@@ -7,7 +7,9 @@ file to refer to the base project.
 
 It is fairly similar to the main theme, with some minor changes such as
 images for projects, alternative sass for quotes and the header,
-addition of a skills and publications sections.
+addition of a skills and publications sections. Charts are built using
+[d3.js](https://d3js.org) and the magic scrolling functionality depends
+on [graph-scroll.js](https://1wheel.github.io › graph-scroll).
 
 # Usage
 It is not required to have Jekyll installed on the server onto which the
