@@ -1,0 +1,25 @@
+<div id="{{ include.item.name }}" class="chart">
+  <h5>{{ include.item.title }}</h5>
+  <script>
+    var data = [
+      {%- for record in include.item.records -%}
+          {
+              name: "{{ record.name }}",
+              value: "{{ record.value }}"
+          },
+      {%- endfor -%}
+    ];
+
+    //sort bars based on value
+    data = data.sort(function (a, b) {
+      var result = d3.ascending(a.value, b.value);
+      if (!result) {
+        return d3.ascending(a.name, b.name);
+      }
+      return result;
+    });
+
+    //create the chart SVG
+    charts.create(data, d3.select("#{{ include.item.name }}"), "{{ include.item.colorMin }}", "{{ include.item.colorMax }}");
+  </script>
+</div>

@@ -1,19 +1,77 @@
 - layout: left
   name: Languages & Tools
+  charts:
+    - name: languagesChart
+      title: Languages & Frameworks
+      colorScheme: category20
+      colorMin: '#fdd0a2'
+      colorMax: '#e6550d'
+      records:
+        - name: C++ (11/14)
+          value: 5
+        - name: Qt
+          value: 4
+        - name: OpenGL
+          value: 4
+        - name: HTML/CSS
+          value: 3
+        - name: Javascript
+          value: 3
+        - name: SQL
+          value: 3
+        - name: Angular.js
+          value: 2
+        - name: Python
+          value: 3
+        - name: Django
+          value: 2
+        - name: C#
+          value: 2
+        - name: Java
+          value: 1
+        - name: ASP.NET
+          value: 1
+    - name: toolsChart
+      title: Tools
+      colorMin: '#9c9ede'
+      colorMax: '#393b79'
+      records:
+        - name: Subversion
+          value: 5
+        - name: CMake
+          value: 5
+        - name: Jira/Confluence
+          value: 5
+        - name: QtCreator
+          value: 5
+        - name: FishEye/Crucible
+          value: 4
+        - name: Git
+          value: 4
+        - name: Visual Studio
+          value: 3
+        - name: MySQL/Postgres
+          value: 3
+        - name: Docker
+          value: 3
+        - name: OpenLayers
+          value: 2
+        - name: MongoDB
+          value: 2
+        - name: Travis
+          value: 2
+        - name: Grunt
+          value: 2
+        - name: Node.js
+          value: 2
   description: | # this will include new lines to allow paragraphs
-    -	Highly proficient with C++ (11/14), Qt5 and OpenGL with over 10 years of experience developing cross-platform 3D visualisation applications. Extensive experience developing multi-threaded applications with the Qt Toolkit and CMake. 
-    -	Proficient with Python, HTML5 (and CSS3), Javascript.
-    - Proficient with SQL databases including MySQL, SQLServer and PostgreSQL.
-    - Experience with MongoDB.
-    - Experience with ASP.NET, Java and C#.
-    -	Experience with web frameworks including OpenLayers, Angular.js, Node.js and JQuery with a demonstrated ability to adapt to new technologies and APIs quickly and adeptly.
-    -	Experience developing GUI and visualisation applications under Windows, Linux and Mac environments.
+    I am highly proficient with C++ (11/14), Qt5 and OpenGL with over 10 years of experience developing cross-platform 3D visualisation applications. Extensive experience developing multi-threaded applications with the Qt Toolkit and CMake. 
+    My proficiency with the various languages, frameworks and tools I have been exposed to are summarised below.
 
 - layout: left
   name: Soft skills
   description: |
-    -	Outstanding written and verbal communication skills, with experience presenting to large groups.
-    - Extensive experience running user and customer workshops.
-    - Experience leading software development teams.
+    I have outstanding written and verbal communication skills, with experience presenting to large groups. My experience running user and customer workshops is extensive and 
+    I have years of experience leading software development teams.
 
 
